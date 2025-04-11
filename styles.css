@@ -73,7 +73,7 @@ h2 {
 }
 
 .highlighted-title {
-    color: #ff0000; /* Red color for "Resize Image" */
+    color: #ff0000; /* Red for "Resize Image" */
     font-weight: bold;
 }
 
@@ -131,6 +131,13 @@ h2 {
     width: 100%;
 }
 
+.inline-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
 .input-group input[type="radio"] {
     margin-right: 5px;
 }
@@ -168,7 +175,8 @@ h2 {
 }
 
 .new-highlight {
-    color: #00ff00; /* Green color for better highlight */
+    color: #000000; /* Black highlight for "Resize by KB" and "Resize by Pixels" */
+    font-weight: bold;
 }
 
 button {
@@ -231,6 +239,12 @@ button:hover {
     .container {
         width: 95%;
         padding: 15px;
+    }
+    .inline-options {
+        flex-direction: column;
+    }
+    .inline-options label {
+        margin-bottom: 10px;
     }
     .inline-inputs input[type="number"] {
         width: 45%;
