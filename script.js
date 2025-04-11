@@ -117,8 +117,8 @@ function convertToPDF() {
     };
 }
 
-// Download resized image (corrected to download image, not PDF)
-function downloadPDF() {
+// Download resized image
+function downloadImage() {
     if (!resizedImage) {
         alert('Please resize an image first!');
         return;
@@ -129,4 +129,9 @@ function downloadPDF() {
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
+}
+
+// Download PDF function (corrected name)
+function downloadPDF() {
+    convertToPDF(); // Reuse convertToPDF logic for simplicity
 }
