@@ -131,7 +131,7 @@ function downloadImage() {
     document.body.removeChild(link);
 }
 
-// Download PDF function (corrected name)
+// Download PDF function
 function downloadPDF() {
-    convertToPDF(); // Reuse convertToPDF logic for simplicity
+    convertToPDF();
 }
