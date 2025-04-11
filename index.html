@@ -13,20 +13,20 @@
             <h1>ResizeFast.AI</h1>
         </div>
         <div class="tagline">Quickly resize your image online</div>
-        <h2>Resize Image</h2>
+        <h2 class="highlighted-title">Resize Image</h2>
         <div class="upload-group shifted-up">
             <input type="file" id="imageUpload" accept="image/*">
             <img id="imagePreview" src="" alt="Image Preview" class="image-preview">
             <div id="fileInfo" class="file-info"></div>
         </div>
         <div class="input-group">
-            <label><input type="radio" name="resizeType" value="kb" onchange="toggleKBInput()"><span class="highlight">Resize by KB</span></label>
+            <label><input type="radio" name="resizeType" value="kb" onchange="toggleKBInput()"><span class="new-highlight">Resize by KB</span></label>
         </div>
         <div class="kb-input">
             <input type="number" id="kbValue" placeholder="Enter KB" min="1">
         </div>
         <div class="input-group">
-            <label><input type="radio" name="resizeType" value="pixels" checked onchange="toggleKBInput()"><span class="highlight">Resize by Pixels</span></label>
+            <label><input type="radio" name="resizeType" value="pixels" checked onchange="toggleKBInput()"><span class="new-highlight">Resize by Pixels</span></label>
         </div>
         <div class="input-group">
             <label><input type="checkbox" id="aspectRatio"> Maintain Aspect Ratio</label>
