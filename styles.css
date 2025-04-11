@@ -72,6 +72,11 @@ h2 {
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
 }
 
+.highlighted-title {
+    color: #ff0000; /* Red color for "Resize Image" */
+    font-weight: bold;
+}
+
 .upload-group {
     margin-bottom: 15px;
     text-align: left;
@@ -79,7 +84,7 @@ h2 {
 }
 
 .shifted-up {
-    margin-top: -20px; /* Upward shift */
+    margin-top: -20px;
 }
 
 .upload-group input[type="file"] {
@@ -136,7 +141,7 @@ h2 {
     border: 1px solid #ddd;
     border-radius: 4px;
     margin-right: 5px;
-    display: inline-block; /* Ensure inline */
+    display: inline-block;
 }
 
 .inline-inputs {
@@ -146,7 +151,7 @@ h2 {
 }
 
 .inline-inputs input[type="number"] {
-    width: 48%; /* Adjust for side-by-side */
+    width: 48%;
 }
 
 .input-group input[type="checkbox"] {
@@ -162,8 +167,8 @@ h2 {
     margin-right: 5px;
 }
 
-.highlight {
-    color: #ffff00; /* Yellow highlight for visibility */
+.new-highlight {
+    color: #00ff00; /* Green color for better highlight */
 }
 
 button {
@@ -185,11 +190,11 @@ button.secondary {
 }
 
 .download-image {
-    background: #4CAF50; /* Green for Download Image */
+    background: #4CAF50;
 }
 
 .download-pdf {
-    background: #2196F3; /* Blue for Download PDF */
+    background: #2196F3;
 }
 
 button:hover {
