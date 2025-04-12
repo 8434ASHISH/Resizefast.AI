@@ -17,7 +17,11 @@
             <div class="logo"><span>R</span></div>
             <h1>ResizeFast.AI</h1>
         </div>
+
+        <!-- Tagline -->
         <div class="tagline">Quickly resize your image online</div>
+
+        <!-- Main Tool Section -->
         <h2 class="highlighted-title">Resize Image</h2>
         <div class="upload-group shifted-up">
             <input type="file" id="imageUpload" accept="image/*">
@@ -49,9 +53,58 @@
             <button class="download-image" onclick="downloadImage()">Download Image</button>
             <button class="download-pdf" onclick="downloadPDF()">Download PDF</button>
         </div>
+
+        <!-- New Sections -->
+        <div class="content-sections">
+            <!-- About Us -->
+            <section class="section">
+                <h3>About Us</h3>
+                <p>ResizeFast.AI is a free online tool developed with love in India to help users quickly resize their images without any hassle. Our mission is to provide a simple, efficient, and user-friendly solution for image resizing needs. We are a team passionate about technology and aim to enhance your digital experience!</p>
+            </section>
+
+            <!-- How to Use -->
+            <section class="section">
+                <h3>How to Use</h3>
+                <ol>
+                    <li>Click the "Choose File" button to upload your image.</li>
+                    <li>Select the resize option: "Resize by KB" or "Resize by Pixels."</li>
+                    <li>Enter the desired KB value or pixel dimensions (width x height).</li>
+                    <li>Check "Maintain Aspect Ratio" if needed.</li>
+                    <li>Choose the output format (JPEG, PNG, or WEBP).</li>
+                    <li>Click "ResizeFast" to process, then download the image or convert to PDF.</li>
+                </ol>
+            </section>
+
+            <!-- Disclaimer -->
+            <section class="section">
+                <h3>Disclaimer</h3>
+                <p>This tool is provided "as is" without any warranties. ResizeFast.AI is not responsible for any loss of data or misuse of the resized images. Users are advised to back up their original files before processing.</p>
+            </section>
+
+            <!-- Privacy Policy -->
+            <section class="section">
+                <h3>Privacy Policy</h3>
+                <p>We do not store or share any uploaded images. All processing happens in your browser, ensuring your privacy. We use cookies only for functionality and do not collect personal data unless required for legal compliance.</p>
+            </section>
+
+            <!-- Contact for Ads -->
+            <section class="section ads-section">
+                <h3>Contact for Ads</h3>
+                <p>Interested in advertising on ResizeFast.AI? Contact us at <a href="mailto:ashish8434@example.com">ashish8434@example.com</a> for advertising opportunities. We offer flexible ad placements to suit your needs!</p>
+                <!-- Placeholder for Ad Code -->
+                <div id="ad-placeholder" class="ad-unit">
+                    <p>Ad space available. Contact us to place your ad here!</p>
+                </div>
+            </section>
+        </div>
+
         <div class="footer">Made with love in India | © 2025 ResizeFast.AI</div>
     </div>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
     <script src="script.js"></script>
+    <script>
+        (function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'92f4a6411e036fe3',t:'MTc0NDQ4MTEwMS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();
+    </script>
 </body>
 </html>
